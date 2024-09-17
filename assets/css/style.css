@@ -19,13 +19,14 @@
 					General style
 --------------------------------------------------------*/
 body {
-  background: #fff none repeat scroll 0 0; font-family: "Agrandir", sans-serif; 
+  background: none repeat scroll 0 0; 
+  font-family: "Agrandir", sans-serif; 
   font-size: 13px;
   font-weight: 500; 
 }
 
 p {
-  color: #313131; 
+  color: #fff; 
   font-size: 1.5rem; 
   line-height: 1.9rem;
   font-weight: 500; font-family: "Agrandir", sans-serif; 
@@ -69,9 +70,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-size: 4rem; 
+  text-transform: capitalize;
   font-weight: 100; 
   line-height: 4.5rem; 
-  margin: 0 0 1rem; }
+  margin: 0 0 1rem; 
+}
 h2 {
   color: #fbf5d2; 
   font-size: 3.6rem; 
@@ -134,7 +137,7 @@ button, .button {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b5b5b5',GradientType=0 ); /* IE6-9 */
   color: #141018;
   display: inline-block;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-family: "Agrandir", sans-serif;
   font-size: 1.6rem;
   letter-spacing: 0.35rem;
@@ -215,6 +218,7 @@ header {
 .logo h1 {
   color: #fff;
   display: inline-block;
+  text-transform: uppercase;
   font-family: "Atteron";
   font-size: 2.5rem;
   letter-spacing: 0.5rem;
@@ -223,6 +227,7 @@ header {
 }
 .logo span {
   font-family: "Atteron";
+  text-transform: lowercase;
   font-size: 1.6rem; 
 }
 .right-header a {
@@ -243,7 +248,7 @@ header {
           CONTENT
 --------------------------------------------------------*/
 .dark-section {
-  background: #000 url("images/bg.jpg") no-repeat scroll 50% 0;
+  background: #d078ff url("images/bg.jpg") no-repeat scroll 50% 0;
   background-size: cover;
   padding: 10rem 0 7rem;
 }
